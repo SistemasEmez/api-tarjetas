@@ -14,7 +14,7 @@ services:
       DB_PASSWORD: 'postgres'
       DB_PORT: 7496
     ports:
-      - "8000:3000"
+      - "8001:3000"
     volumes:
       - .:/app
     restart: unless-stopped
